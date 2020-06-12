@@ -40,4 +40,4 @@ jobs:
       run: npm install -g surge
       
     - name: deploying on surge
-      run:  surge ./ build http://bootcls2.surge.sh/ --token {{secrets.REACT}}
+      run:  surge ./ build http://bootcls2.surge.sh/ --token "f8c0af3e87a5d7578d4341bb74df27bd"
